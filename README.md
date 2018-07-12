@@ -5,7 +5,6 @@
 + 可以查阅[抖音签名算法GO语言版](https://github.com/sweet8-asia/douyin-sign)，来研究抖音算法本身。
 + [本程序也可以直接通过命令行获取数据](https://github.com/sweet8-asia/douyin-demo/blob/master/%E9%80%9A%E8%BF%87%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%96%B9%E5%BC%8F%E8%B0%83%E7%94%A8.md)
 
->以下是抖音本地http服务的演示说明，需要程序的可加QQ:2811481636
 
 > 首先需要要在本地运行http服务器，端口为9102
 
@@ -68,16 +67,16 @@
 [http://127.0.0.1:9102/login?mobile=%2B17702032055&password=poilkjmnb123&device_id=50311297598&iid=37764280446&uuid=866265035315870&openudid=4617150637217100&captcha=p8ux](http://127.0.0.1:9102/login?mobile=%2B17702032055&password=poilkjmnb123&device_id=50311297598&iid=37764280446&uuid=866265035315870&openudid=4617150637217100&captcha=p8ux)
 
 
-## 需要登录的接口演示：
+## 需要登录的接口演示（传递登录返回的user_id到uid参数）：
 
 + [需登录]喜欢 
 
-[http://127.0.0.1:9102/api?user_id=96183592775&action=commit/item/digg&aweme_id=6577254073496505604&type=1](http://127.0.0.1:9102/api?user_id=96183592775&action=commit/item/digg&aweme_id=6577254073496505604&type=1)
+[http://127.0.0.1:9102/api?uid=96183592775&action=commit/item/digg&aweme_id=6577254073496505604&type=1](http://127.0.0.1:9102/api?user_id=96183592775&action=commit/item/digg&aweme_id=6577254073496505604&type=1)
 
 + [需登录]关注 
 
-[http://127.0.0.1:9102/api?user_id=96183592775&action=commit/follow/user&user_id=65146937437](http://127.0.0.1:9102/api?user_id=96183592775&action=commit/follow/user&user_id=65146937437)
+[http://127.0.0.1:9102/api?uid=96183592775&action=commit/follow/user&user_id=65146937437](http://127.0.0.1:9102/api?user_id=96183592775&action=commit/follow/user&user_id=65146937437)
 
 + [需登录]评论 
-[http://127.0.0.1:9102/api?user_id=96183592775&action=comment/publish&aweme_id=6577254073496505604&text=很不错哦](http://127.0.0.1:9102/api?user_id=96183592775&action=comment/publish&aweme_id=6577254073496505604&text=很不错哦)
+[http://127.0.0.1:9102/api?uid=96183592775&action=comment/publish&aweme_id=6577254073496505604&text=很不错哦](http://127.0.0.1:9102/api?user_id=96183592775&action=comment/publish&aweme_id=6577254073496505604&text=很不错哦)
 
