@@ -1,5 +1,7 @@
 [视频演示](http://yxshare.oss-cn-hangzhou.aliyuncs.com/douyin/http%E6%9C%AC%E5%9C%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%96%B9%E5%BC%8F%E8%8E%B7%E5%8F%96%E6%95%B0%E6%8D%AE.mp4)
 
+这里有一个演示的网页Demo:[http://toolher.com/douyin_video](http://toolher.com/douyin_video)，用于批量获取某个抖音号的所有无水印视频。
+
 > 如果您不懂go代码或者无心研究算法本身，可以通过在服务器或PC上运行本程序，并通过简单的本地http请求方式访问抖音数据
 
 + 可以查阅[抖音签名算法GO语言版](https://github.com/sweet8-asia/douyin-sign)，来研究抖音算法本身。
