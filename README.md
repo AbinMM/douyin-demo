@@ -1,13 +1,16 @@
 # 抖音命令行工具
 > 如果您不懂go代码或者无心研究算法本身，也可以通过调用命令行的方式在你的程序集成抖音功能（就不提供所谓DLL的方式了）
 
-[GO算法](https://github.com/sweet8-asia/douyin-sign)
+你也可以查阅[抖音签名算法GO语言版](https://github.com/sweet8-asia/douyin-sign)
 
->抖音接口分为无需登录和登录两部分
+>以下是抖音命令行工具的演示说明，需要程序的可加QQ:2811481636
+
+>接口分为无需登录和登录两部分
 
 
 ## 无需登录接口演示：
 + [无需登录]获取首页动态列表：
+
 `douyin-demo api --action=feed --args="type=0&count=100&max_cursor=0&min_cursor=0"`
 
 + [无需登录]搜索用户：
