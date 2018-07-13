@@ -22,7 +22,7 @@
 
 [http://127.0.0.1:9102/api?action=feed&type=0&count=100&max_cursor=0&min_cursor=0](http://127.0.0.1:9102/api?action=feed&type=0&count=100&max_cursor=0&min_cursor=0)
 
-+ [无需登录]搜索用户：
++ [无需登录]搜索用户（调用频次过高，会要求登录）：
 
 [http://127.0.0.1:9102/api?action=discover/search&keyword=美女&type=1&cursor=0&count=10](http://127.0.0.1:9102/api?action=discover/search&keyword=美女&type=1&cursor=0&count=10)
 
