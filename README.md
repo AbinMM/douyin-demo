@@ -72,10 +72,15 @@
 
 [http://127.0.0.1:9102/login?mobile=%2B17702032055&password=poilkjmnb123&device_id=50311297598&iid=37764280446&uuid=866265035315870&openudid=4617150637217100&captcha=p8ux](http://127.0.0.1:9102/login?mobile=%2B17702032055&password=poilkjmnb123&device_id=50311297598&iid=37764280446&uuid=866265035315870&openudid=4617150637217100&captcha=p8ux)
 
-## 如何使用微博登录（QQ一样）：
+## 如何使用微博登录
 + 请抓包获取access_token
 
 [http://127.0.0.1:9102/login/weibo?access_token=2.00z7A2NHGahxaBbb82f38551doqv6B&device_id=50311297598&iid=37764280446&uuid=866265035315870&openudid=4617150637217100&captcha=](http://127.0.0.1:9102/login/weibo?access_token=2.00z7A2NHGahxaBbb82f38551doqv6B&device_id=50311297598&iid=37764280446&uuid=866265035315870&openudid=4617150637217100&captcha=)
+
+## 如何使用QQ登录
++ 请抓包获取access_token和uid
+
+[http://127.0.0.1:9102/login/qq?access_token=AA9E3EC48ED40CC135F23AA11729ECDF&uid=33216AB639F0E290C550EFBE05149938&device_id=50311297598&iid=37764280446&uuid=866265035315870&openudid=4617150637217100&captcha=](http://127.0.0.1:9102/login/qq?access_token=AA9E3EC48ED40CC135F23AA11729ECDF&uid=33216AB639F0E290C550EFBE05149938&device_id=50311297598&iid=37764280446&uuid=866265035315870&openudid=4617150637217100&captcha=)
 
 
 
