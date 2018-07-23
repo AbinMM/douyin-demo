@@ -73,12 +73,12 @@
 [http://127.0.0.1:9102/login?mobile=%2B17702032055&password=poilkjmnb123&device_id=50311297598&iid=37764280446&uuid=866265035315870&openudid=4617150637217100&captcha=p8ux](http://127.0.0.1:9102/login?mobile=%2B17702032055&password=poilkjmnb123&device_id=50311297598&iid=37764280446&uuid=866265035315870&openudid=4617150637217100&captcha=p8ux)
 
 ## 如何使用微博登录
-+ 请抓包获取access_token
++ 请抓包获取access_token  [视频演示](http://yxshare.oss-cn-hangzhou.aliyuncs.com/douyin/%E6%A8%A1%E6%8B%9F%E5%BE%AE%E5%8D%9A%E7%99%BB%E5%BD%95%E6%8A%96%E9%9F%B3%E5%90%8E%E7%9A%84%E7%82%B9%E8%B5%9E%E6%93%8D%E4%BD%9C.mp4)
 
 [http://127.0.0.1:9102/login/weibo?access_token=2.00z7A2NHGahxaBbb82f38551doqv6B&device_id=50311297598&iid=37764280446&uuid=866265035315870&openudid=4617150637217100&captcha=](http://127.0.0.1:9102/login/weibo?access_token=2.00z7A2NHGahxaBbb82f38551doqv6B&device_id=50311297598&iid=37764280446&uuid=866265035315870&openudid=4617150637217100&captcha=)
 
 ## 如何使用QQ登录
-+ 请抓包获取access_token和uid
++ 请抓包获取access_token和uid  [视频演示](http://yxshare.oss-cn-hangzhou.aliyuncs.com/douyin/%E6%A8%A1%E6%8B%9Fqq%E7%99%BB%E5%BD%95%E6%8A%96%E9%9F%B3.mp4)
 
 [http://127.0.0.1:9102/login/qq?access_token=AA9E3EC48ED40CC135F23AA11729ECDF&uid=33216AB639F0E290C550EFBE05149938&device_id=50311297598&iid=37764280446&uuid=866265035315870&openudid=4617150637217100&captcha=](http://127.0.0.1:9102/login/qq?access_token=AA9E3EC48ED40CC135F23AA11729ECDF&uid=33216AB639F0E290C550EFBE05149938&device_id=50311297598&iid=37764280446&uuid=866265035315870&openudid=4617150637217100&captcha=)
 
