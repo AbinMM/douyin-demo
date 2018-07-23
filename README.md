@@ -72,17 +72,23 @@
 
 [http://127.0.0.1:9102/login?mobile=%2B17702032055&password=poilkjmnb123&device_id=50311297598&iid=37764280446&uuid=866265035315870&openudid=4617150637217100&captcha=p8ux](http://127.0.0.1:9102/login?mobile=%2B17702032055&password=poilkjmnb123&device_id=50311297598&iid=37764280446&uuid=866265035315870&openudid=4617150637217100&captcha=p8ux)
 
+## 如何使用微博登录（QQ一样）：
++ 请抓包获取access_token
+
+[http://127.0.0.1:9102/login/weibo?access_token=2.00z7A2NHGahxaBbb82f38551doqv6B&device_id=50311297598&iid=37764280446&uuid=866265035315870&openudid=4617150637217100&captcha=](http://127.0.0.1:9102/login/weibo?access_token=2.00z7A2NHGahxaBbb82f38551doqv6B&device_id=50311297598&iid=37764280446&uuid=866265035315870&openudid=4617150637217100&captcha=)
+
+
 
 ## 需要登录的接口演示（传递登录返回的user_id到uid参数）：
 
 + [需登录]喜欢 
 
-[http://127.0.0.1:9102/api?uid=96183592775&action=commit/item/digg&aweme_id=6577254073496505604&type=1](http://127.0.0.1:9102/api?user_id=96183592775&action=commit/item/digg&aweme_id=6577254073496505604&type=1)
+[http://127.0.0.1:9102/api?uid=96183592775&action=commit/item/digg&aweme_id=6577254073496505604&type=1](http://127.0.0.1:9102/api?uid=96183592775&action=commit/item/digg&aweme_id=6577254073496505604&type=1)
 
 + [需登录]关注 
 
-[http://127.0.0.1:9102/api?uid=96183592775&action=commit/follow/user&user_id=65146937437](http://127.0.0.1:9102/api?user_id=96183592775&action=commit/follow/user&user_id=65146937437)
+[http://127.0.0.1:9102/api?uid=96183592775&action=commit/follow/user&user_id=65146937437](http://127.0.0.1:9102/api?uid=96183592775&action=commit/follow/user&user_id=65146937437)
 
 + [需登录]评论 
-[http://127.0.0.1:9102/api?uid=96183592775&action=comment/publish&aweme_id=6577254073496505604&text=很不错哦](http://127.0.0.1:9102/api?user_id=96183592775&action=comment/publish&aweme_id=6577254073496505604&text=很不错哦)
+[http://127.0.0.1:9102/api?uid=96183592775&action=comment/publish&aweme_id=6577254073496505604&text=很不错哦](http://127.0.0.1:9102/api?uid=96183592775&action=comment/publish&aweme_id=6577254073496505604&text=很不错哦)
 
