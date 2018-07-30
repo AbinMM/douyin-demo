@@ -53,6 +53,9 @@
 
 [http://127.0.0.1:9102/api?action=nearby/feed&type=0&count=100&max_cursor=0&min_cursor=0](http://127.0.0.1:9102/api?action=nearby/feed&type=0&count=100&max_cursor=0&min_cursor=0)
 
++ [无需登录]获取评论列表：
+[http://127.0.0.1:9102/api?action=comment/list&aweme_id=6577254073496505604&count=20&cursor=0](http://127.0.0.1:9102/api?action=comment/list&aweme_id=6577254073496505604&count=20&cursor=0)
+
 
 + [无需登录]播放 
 
