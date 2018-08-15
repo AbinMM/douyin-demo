@@ -6,7 +6,7 @@
 
 
 + 无水印视频批量下载:[https://app886.cn/douyin_video](https://app886.cn/douyin_video)
-+ 直接购买在线签名服务：[https://app886.cn/douyin/service](https://app886.cn/douyin/service)
++ 不想自己部署http服务？直接使用在线签名服务：[https://app886.cn/douyin/service](https://app886.cn/douyin/service)
 + 可以查阅[抖音签名算法GO语言版](https://github.com/sweet8-asia/douyin-sign)，来研究抖音算法本身。
 + [本程序也可以直接通过命令行获取数据](https://github.com/sweet8-asia/douyin-demo/blob/master/%E9%80%9A%E8%BF%87%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%96%B9%E5%BC%8F%E8%B0%83%E7%94%A8.md)
 
