@@ -2,7 +2,7 @@
 *抖音7月12日发布了v2.0.0的版本，加了一个策略：如果你登录过一个较大的版本号(比如1.9.8)，那么再登录回较低的版本号（1.7.2），会提示“为确保账户安全，请升级最新版本进行操作”。*
 
 
-+ douyin-demo是可以在无需了解签名算法，直接可以部署在服务器、应用程序内的一个http服务，[视频演示](http://yxshare.oss-cn-hangzhou.aliyuncs.com/douyin/http%E6%9C%AC%E5%9C%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%96%B9%E5%BC%8F%E8%8E%B7%E5%8F%96%E6%95%B0%E6%8D%AE.mp4)
++ douyin-demo是无需了解签名算法，直接部署在服务器、应用程序内的一个付费http服务，[视频演示](http://yxshare.oss-cn-hangzhou.aliyuncs.com/douyin/http%E6%9C%AC%E5%9C%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%96%B9%E5%BC%8F%E8%8E%B7%E5%8F%96%E6%95%B0%E6%8D%AE.mp4)，需要购买请加作者QQ：2811481636
 
 
 + 无水印视频批量下载:[https://app886.cn/douyin_video](https://app886.cn/douyin_video)
@@ -12,7 +12,7 @@
 
 —————————————————————————
 
-> 以下是抖音本地http服务的演示说明，需要程序的可加QQ:2811481636
+> 以下是抖音本地http服务的演示说明
 
 > 首先需要要在本地运行http服务器，端口为9102
 
